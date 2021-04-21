@@ -34,9 +34,22 @@ body{
     color:white;
 }
 
+@media (max-width:425px){
+    #div1{
+        padding:10px 5px;
+    }
+}
+
 input, button{
     font-size: 20px;
     margin:10px 0px;
+}
+
+@media (max-width:425px){
+    input,button{
+        font-size: 15px;
+        margin:5px;
+    }
 }
 
 input{
@@ -48,6 +61,14 @@ input{
     padding:10px 10px;
     text-align: center;
 }
+
+@media (max-width:425px){
+    input{
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
 
 input::placeholder{
     color:white;
@@ -61,6 +82,13 @@ button{
     font-size: 30px;
     width:385px;
     padding:10px 0px;
+}
+
+@media (max-width:425px){
+    button{
+        width:  253px;
+        font-size: 20px;
+    }   
 }
 
 input::-webkit-outer-spin-button,
@@ -78,6 +106,13 @@ input::-webkit-inner-spin-button {
     margin-bottom: 30px;
 }
 
+@media (max-width:425px){
+    #h1{
+        font-size: 18px;
+        margin-bottom:15px;
+    }   
+}
+
 #numberdisplay{
     width: 385px;
     text-align: center;
@@ -88,4 +123,13 @@ input::-webkit-inner-spin-button {
     background: rgba(0,0,0,0.1);
     backdrop-filter: blur(30px);
     margin: 20px;
+}
+
+@media (max-width:425px){
+    #numberdisplay{
+        width:253px;
+        font-size: 25px;
+        height:98px;
+        
+    }   
 }
